@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "name": "AVR",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:/path/to/avr/include",
+                "C:/path/to/avr-libc/include"
+            ],
+            "compilerPath": "C:/path/to/avr-gcc/bin/avr-gcc.exe",
+            "intelliSenseMode": "gcc-x86", 
+            "cStandard": "c11", // Use C11 standard (adjust as needed)
+            "cppStandard": "c++17" // Use C++17 standard (if working with C++)
+        }
+    ],
+    "version": 4
+}
